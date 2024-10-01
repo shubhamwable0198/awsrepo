@@ -1,0 +1,43 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    color: #fff;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .cta-buttons a {
+    margin-left: 15px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #E74C3C;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
